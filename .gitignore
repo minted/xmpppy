@@ -4,3 +4,5 @@
 *.pyc
 /html
 /build
+/dist
+*.egg-info/

@@ -1,16 +1,18 @@
 #!/usr/bin/python
 # -*- coding: koi8-r -*-
-from distutils.core import setup,sys
-import os
 
-if sys.version < '2.2.3':
-    from distutils.dist import DistributionMetadata
-    DistributionMetadata.classifiers = None
-    DistributionMetadata.download_url = None
+from setuptools import setup
+# from distutils.core import setup,sys
+# import os
+
+# if sys.version < '2.2.3':
+#     from distutils.dist import DistributionMetadata
+#     DistributionMetadata.classifiers = None
+#     DistributionMetadata.download_url = None
 
 # Set proper release version in source code also!!!
 setup(name='xmpppy',
-      version='0.5.2.2',
+      version='0.5.2.3',
       author='Cyril Peponnet',
       author_email='cyril@peponnet.fr',
       url='https://github.com/ArchipelProject/xmpppy',
